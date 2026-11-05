@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from '@/app/store';
 import {
   openModal,
-  toggleMobileMenu,
   setActiveTab,
   addToast,
 } from '@/shared/uiSlice';
@@ -17,7 +16,6 @@ import {
   CheckSquare,
   Activity as ActivityIcon,
   Users,
-  Menu,
   Sparkles,
   User,
   Shield,
@@ -88,16 +86,8 @@ export const Navbar: React.FC = () => {
       }`}
     >
       <div className="h-full px-3 sm:px-6 flex items-center justify-between gap-2 sm:gap-4">
-        {/* Left Section: Mobile toggle & Title */}
+        {/* Left Section: Title */}
         <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-          <button
-            onClick={() => dispatch(toggleMobileMenu())}
-            className="md:hidden p-1.5 sm:p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors shrink-0"
-            title="Open navigation menu"
-          >
-            <Menu className="w-5 h-5" />
-          </button>
-
           <div className="min-w-0">
             <h1 className="text-sm sm:text-lg font-bold text-slate-900 tracking-tight leading-tight truncate max-w-[160px] sm:max-w-xs md:max-w-none">
               {currentTabInfo.title}
