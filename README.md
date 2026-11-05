@@ -1,13 +1,21 @@
-# ♾️ VedaFlow — Sales Intelligence Platform
+<p align="center">
+  <img src="assets/vedaflow-logo.svg" alt="VedaFlow Logo" width="380" />
+</p>
 
-> **Modern Enterprise Sales Intelligence & CRM Suite built for the Indian Business Ecosystem.**  
-> Derived from *"Veda"* (insight/knowledge) + *"Flow"* (deal velocity and operational agility).
+<h1 align="center">VedaFlow — Sales Intelligence Platform</h1>
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue.svg)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.3-61dafb.svg)](https://react.dev/)
-[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.3-purple.svg)](https://redux-toolkit.js.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8.svg)](https://tailwindcss.com/)
-[![Vitest](https://img.shields.io/badge/Vitest-45_Tests_Passing-brightgreen.svg)](https://vitest.dev/)
+<p align="center">
+  <strong>Modern Enterprise Sales Intelligence &amp; CRM Suite built for the Indian Business Ecosystem.</strong><br>
+  <em>Derived from &ldquo;Veda&rdquo; (insight/knowledge) + &ldquo;Flow&rdquo; (deal velocity and operational agility).</em>
+</p>
+
+<p align="center">
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.6-blue.svg" alt="TypeScript" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18.3-61dafb.svg" alt="React" /></a>
+  <a href="https://redux-toolkit.js.org/"><img src="https://img.shields.io/badge/Redux_Toolkit-2.3-purple.svg" alt="Redux Toolkit" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8.svg" alt="Tailwind CSS" /></a>
+  <a href="https://vitest.dev/"><img src="https://img.shields.io/badge/Vitest-45_Tests_Passing-brightgreen.svg" alt="Vitest" /></a>
+</p>
 
 ---
 
